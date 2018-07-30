@@ -1,0 +1,25 @@
+{
+  "name": "wesbos-javascript30",
+  "version": "1.0.0",
+  "description": "30 days, 30 Javascript exercises",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saikatdas0790/wesbos-javascript30.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saikatdas0790/wesbos-javascript30/issues"
+  },
+  "homepage": "https://github.com/saikatdas0790/wesbos-javascript30#readme",
+  "devDependencies": {
+    "eslint": "^5.2.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "prettier": "^1.14.0"
+  }
+}
