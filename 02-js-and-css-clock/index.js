@@ -7,7 +7,11 @@ function setDate() {
 
   let seconds = now.getSeconds();
   if (seconds === 0) secondHand.style.transition = "all 0s";
-  if (seconds === 1) secondHand.style.transition = "all 0.05s";
+  if (seconds === 1) {
+    secondHand.style.transition = "all 0.05s";
+    secondHand.style["transition-timing-function"] =
+      "cubic-bezier(0.1, 2.7, 0.58, 1)";
+  }
   const secondDegrees = (seconds / 60) * 360 + 90;
   secondHand.style.transform = `rotate(${secondDegrees}deg)`;
 
