@@ -25,11 +25,11 @@ function displayMatches() {
       const regex = new RegExp(this.value, "gi");
       const cityName = place.city.replace(
         regex,
-        `<span class="h1">${this.value}</span>`
+        `<span class="hl">${this.value}</span>`
       );
       const stateName = place.state.replace(
         regex,
-        `<span class="h1">${this.value}</span>`
+        `<span class="hl">${this.value}</span>`
       );
       return `
       <li>
